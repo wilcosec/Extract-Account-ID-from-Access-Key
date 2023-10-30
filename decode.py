@@ -16,4 +16,6 @@ def AWSAccount_from_AWSKeyID(AWSKeyID):
     return e
 
 
-print("account id:" + "{:012d}".format(AWSAccount_from_AWSKeyID("ASIAxxxxxxxxxxxxxxx")))
+print(
+    "account id: " + "{:012d}".format(AWSAccount_from_AWSKeyID("ASIAxxxxxxxxxxxxxxxx"))
+)
